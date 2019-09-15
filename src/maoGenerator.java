@@ -1,11 +1,11 @@
-public class maoGenerator {
+/*public class maoGenerator {
     public boolean basicRule(Card showingCard, Card playingCard){
         String showingSuit = showingCard.getSuit();
         String playingSuit = playingCard.getSuit();
-        int showingNumber = showingCard.getNumber();
-        int playingNumber = playingCard.getNumber();
+        String showingNumber = showingCard.getNumber();
+        String playingNumber = playingCard.getNumber();
         boolean decision;
-        if (playingSuit.equals(showingSuit) || playingNumber==showingNumber){
+        if (playingSuit.equals(showingSuit) || playingNumber.equals(showingNumber)){
             decision=true;
         }
         else {decision=false;}
@@ -31,10 +31,10 @@ public class maoGenerator {
     public boolean play2Again(Card showingCard, Card playingCard){
         String showingSuit = showingCard.getSuit();
         String playingSuit = playingCard.getSuit();
-        int showingNumber = showingCard.getNumber();
-        int playingNumber = playingCard.getNumber();
+        String  showingNumber = showingCard.getNumber();
+        String playingNumber = playingCard.getNumber();
         boolean decision;
-        if (playingNumber==7 && !playerInput.euqual("Happy birthday!".toLowerCase())){
+        if (playingNumber.equals("7") && !playerInput.euqual("Happy birthday!".toLowerCase())){
             decision=false;
         }
         else {
@@ -43,3 +43,4 @@ public class maoGenerator {
         return decision;
     }
 }
+*/

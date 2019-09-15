@@ -23,4 +23,8 @@ public class Card {
     public String getNumber() {
         return number;
     }
+
+    public String getString() {
+        return suit+number;
+    }
 }
