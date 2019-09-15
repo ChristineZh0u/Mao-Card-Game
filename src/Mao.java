@@ -456,6 +456,11 @@ public class Mao {
                     JOptionPane.showMessageDialog(null, "That is not a valid input.", "Mao", JOptionPane.PLAIN_MESSAGE);
                     isPlayersTurn = true;
                 }
+                if (isValid) {
+                    JOptionPane.showMessageDialog(null, "You played " + showingCard.getString() + ".", "Mao", JOptionPane.PLAIN_MESSAGE);
+                    isPlayersTurn = false;
+                }
+
 
             } while (isPlayersTurn);
 
